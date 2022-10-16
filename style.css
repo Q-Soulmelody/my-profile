@@ -1,0 +1,111 @@
+body {
+	background: #F7F9FE;
+	color: rgb(50,50,50);
+	font-family: Helvetica;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}/*delete underline*/
+
+h1,h2 {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	color: #1572A1;
+}
+
+.container {
+	width: 1200px;
+    margin: 60px auto;
+}
+
+.card-white {
+	background: white;
+    padding: 40px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0px 2px 3px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+}
+
+.img-cirle {
+	border-radius: 50%;
+}/*set the image to a circle*/
+
+.btn-violet {
+	background-color:#7170D8;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+	font-weight: 700
+}/*set style of the link*/
+
+.btn-violet:hover {
+	background-color: #7895B2;
+	color: white;
+}/*set hover of the link*/
+
+.text-left {
+	text-align: left;
+}
+
+.text-height {
+	line-height: 30px;
+}
+
+.text-font {
+	font-family: 'Roboto', sans-serif;
+}
+
+.list-inline {
+	list-style: none;/*delete dots*/
+	padding-left: 0px;/*delete the left space of dots*/
+}
+
+.list-inline li {/*choose li in list-line*/
+	display: inline;/*arrange the icons in rows*/
+	padding: 20px;
+}
+
+.list-inline i {
+	font-size: 70px;/*make the icons bigger*/
+}
+
+.fa-linkedin {
+	color: #0966C2;
+}
+
+.fa-github {
+	color: #23292F;
+}
+
+.fa-facebook {
+	color: #1777F2;
+}
+
+.list-inline i:hover {
+	color: rgb(200, 200, 200);
+}
+
+#introduction-blank p {
+	margin-bottom: 40px;/*使le wagon按钮与文字之间有一段距离*/
+}
+
+@media (max-width: 1400px) {
+	.container {
+		width: 1000px;
+	}
+}/*When the page width is less than 1400px, the container width becomes 1000px*/
+
+@media (max-width: 1150px) {
+	.container {
+		width: 800px;
+	}
+}/*When the page width is less than 1150px, the container width becomes 800px*/
