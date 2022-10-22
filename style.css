@@ -98,14 +98,14 @@ h2 {
 	margin-bottom: 40px;/*使le wagon按钮与文字之间有一段距离*/
 }
 
-@media (max-width: 1400px) {
-	.container {
-		width: 1000px;
-	}
-}/*When the page width is less than 1400px, the container width becomes 1000px*/
-
-@media (max-width: 1150px) {
+@media (max-width: 1200px) {
 	.container {
 		width: 800px;
 	}
-}/*When the page width is less than 1150px, the container width becomes 800px*/
+}/*When the page width is less than 1200px, the container width becomes 800px*/
+
+@media (max-width: 800px) {
+	.container {
+		width: 500px;
+	}
+}/*When the page width is less than 800px, the container width becomes 500px*/
